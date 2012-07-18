@@ -24,7 +24,7 @@ MUST HAVE*/
 }
 #side_bar {
 	position: fixed;
-	border-bottom-left-radius: 1px !important;
+	border-bottom-left-radius: 0px !important;
 }
 /*Зафиксировать попап из левого меню 
 MUST HAVE*/
@@ -58,7 +58,7 @@ MUST HAVE*/
 }
 /*Квадратные аватарки в диалогах*/
 img.im_user_holder, img.fc_contact_photo, img.fc_tab_txt_self {
-	border-radius: 1px !important;
+	border-radius: 0px !important;
 }
 .rate_empty_line {
 	display: none;
@@ -67,14 +67,17 @@ img.im_user_holder, img.fc_contact_photo, img.fc_tab_txt_self {
 #profile .rate_line {
 	display: none;
 }
-
+/*Прямоугольные пункты левого меню и плюсы*/
+#side_bar ol li .left_row, .left_count_wrap {
+	border-radius: 0px !important;
+}
 
 
 /**********************************/
 /*ДЛЯ VK.JS*/
 /**********************************/
 /*Разделительная линия в меню*/
-.more_div{
+#side_bar .more_div{
 	display: none !important;
 }
 .more_div, .more_divv{

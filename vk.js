@@ -14,6 +14,8 @@ function init() {
 	newElem(ol, "/cc", "Сокращение ссылок", 1);
 	newElem(ol, "/club9390927", "My group");
 	newElem(ol, "/club1024599", "7095");
+	newElem(ol, "http://www.google.ru/", "Google");
+	newElem(ol, "https://github.com/ArvenPK", "GitHub");
 	//Поднять аудио над друзьями:
 	if (document.getElementById("profile_common_friends")) replaceDiv("profile_common_friends", "profile_audios");
 	else replaceDiv("profile_friends", "profile_audios");
